@@ -32,6 +32,7 @@
             <span class="brand-mark" aria-hidden="true">EA</span>
             <span class="brand-label">Elton Azevedo Monjane</span>
           </a>
+
           <button
             class="menu-toggle"
             type="button"
@@ -40,8 +41,9 @@
           >
             Menu
           </button>
+
           <div class="nav-links" id="nav-links">
-            <a href="#home">Home</a>
+            <a class="is-active" href="#home">Home</a>
             <a href="#sobre">Sobre</a>
             <a href="#competencias">Competências</a>
             <a href="#projectos">Projectos</a>
@@ -52,9 +54,28 @@
 
       <main>
         <section class="hero section" id="home">
+          <div class="hero-backdrop" aria-hidden="true">
+            <span class="hero-orb hero-orb-a"></span>
+            <span class="hero-orb hero-orb-b"></span>
+            <span class="hero-ring hero-ring-a"></span>
+            <span class="hero-ring hero-ring-b"></span>
+          </div>
+
           <div class="container hero-grid">
             <div class="hero-copy reveal">
-              <p class="eyebrow">Portfólio Web</p>
+              <p class="eyebrow">Portfólio Académico</p>
+
+              <div class="hero-badge-row">
+                <span class="hero-chip">
+                  <i class="ri-graduation-cap-line" aria-hidden="true"></i>
+                  Percurso em Informática
+                </span>
+                <span class="hero-chip">
+                  <i class="ri-bubble-chart-line" aria-hidden="true"></i>
+                  Composição digital
+                </span>
+              </div>
+
               <h1 class="hero-title">
                 <span class="hero-intro">Olá, eu sou</span>
                 <span
@@ -63,25 +84,44 @@
                   aria-label="Elton Azevedo"
                 ></span>
               </h1>
+
               <p class="hero-slogan">
-                Aprendizagem contínua, tecnologia e desenvolvimento criativo.
+                Tecnologia, composição visual e aprendizagem em progresso.
               </p>
+
               <p class="hero-text">
-                Estudante de Informática dedicado a consolidar competências em programação,
-                raciocínio lógico e criação digital, com foco em projectos práticos e evolução
-                consistente.
+                Estudante de Informática focado em programação, raciocínio lógico e criação
+                digital, com interesse por projectos práticos bem apresentados.
               </p>
+
               <div class="hero-actions">
                 <a class="button button-primary" href="#projectos">Ver Projectos</a>
                 <a class="button button-secondary" href="#contacto">Entrar em Contacto</a>
               </div>
+
+              <div class="hero-highlights">
+                <article class="hero-highlight tilt-card">
+                  <span class="hero-highlight-label">Base</span>
+                  <strong>Programação e raciocínio lógico</strong>
+                </article>
+
+                <article class="hero-highlight tilt-card">
+                  <span class="hero-highlight-label">Interesse</span>
+                  <strong>Multimédia e tecnologia</strong>
+                </article>
+
+                <article class="hero-highlight tilt-card">
+                  <span class="hero-highlight-label">Abordagem</span>
+                  <strong>Projectos digitais com apresentação cuidada</strong>
+                </article>
+              </div>
             </div>
 
-            <aside
-              class="hero-panel hero-panel-portrait reveal"
-              aria-label="Foto de perfil de Elton Azevedo Monjane"
-            >
-              <div class="hero-portrait">
+            <aside class="hero-visual reveal" aria-label="Foto de perfil de Elton Azevedo Monjane">
+              <div class="hero-portrait-shell tilt-card">
+                <span class="hero-portrait-tag hero-portrait-tag-top">Apresentação Visual</span>
+                <span class="hero-portrait-tag hero-portrait-tag-bottom">MCG</span>
+                <div class="hero-portrait-glow" aria-hidden="true"></div>
                 <div class="hero-portrait-frame">
                   <img
                     src="assets/perfil-helton.jpeg"
@@ -99,67 +139,79 @@
               <p class="eyebrow">Sobre</p>
               <h2>Perfil pessoal</h2>
               <p>
-                Uma síntese do percurso, da motivação e das áreas em que Elton continua a
-                desenvolver o seu perfil técnico, académico e criativo.
+                Percurso, motivação e áreas que continuam a estruturar a evolução técnica e
+                criativa de Elton.
               </p>
             </div>
 
             <div class="about-grid">
-              <div class="about-copy about-story reveal">
-                <p class="about-slogan">
-                  Informática, criatividade digital e aprendizagem contínua.
-                </p>
+              <div class="about-story reveal">
+                <p class="about-slogan">Informática, composição digital e evolução constante.</p>
                 <p class="about-bio">
                   Sou Elton Azevedo Monjane, estudante de Informática com interesse especial por
                   programação, multimédia e tecnologias de informação. Procuro consolidar bases
-                  técnicas, aprofundar a capacidade de análise e aplicar conhecimentos em
-                  projectos práticos que combinem organização, criatividade e resolução de
-                  problemas.
+                  técnicas e aplicar conhecimento em projectos práticos com organização, clareza
+                  e atenção à apresentação.
                 </p>
+
+                <div class="about-story-points">
+                  <span>
+                    <i class="ri-code-s-slash-line" aria-hidden="true"></i>
+                    Programação
+                  </span>
+                  <span>
+                    <i class="ri-gallery-line" aria-hidden="true"></i>
+                    Multimédia
+                  </span>
+                  <span>
+                    <i class="ri-computer-line" aria-hidden="true"></i>
+                    Tecnologias de Informação
+                  </span>
+                </div>
               </div>
 
               <div class="about-highlights">
-                <article class="about-card reveal">
+                <article class="about-card reveal tilt-card">
                   <span class="about-card-icon" aria-hidden="true">
-                    <i class="ri-code-box-line"></i>
+                    <i class="ri-graduation-cap-line"></i>
                   </span>
-                  <h3>Base técnica</h3>
+                  <h3>Estudante de Informática</h3>
                   <p>
-                    Consolidação progressiva de programação, lógica e organização de código com
-                    foco em fundamentos sólidos.
+                    Percurso académico orientado para consolidar fundamentos técnicos com visão
+                    prática e progressão consistente.
                   </p>
                 </article>
 
-                <article class="about-card reveal">
-                  <span class="about-card-icon" aria-hidden="true">
-                    <i class="ri-palette-line"></i>
-                  </span>
-                  <h3>Vertente criativa</h3>
-                  <p>
-                    Interesse por multimédia, composição visual e modelação digital aplicada a
-                    projectos de apresentação.
-                  </p>
-                </article>
-
-                <article class="about-card reveal">
+                <article class="about-card reveal tilt-card">
                   <span class="about-card-icon" aria-hidden="true">
                     <i class="ri-book-open-line"></i>
                   </span>
-                  <h3>Aprendizagem contínua</h3>
+                  <h3>Foco em aprendizagem</h3>
                   <p>
-                    Evolução constante através de prática, estudo e desenvolvimento gradual de
-                    competências técnicas.
+                    Desenvolvimento contínuo através de prática, estudo e construção gradual de
+                    competências.
                   </p>
                 </article>
 
-                <article class="about-card reveal">
+                <article class="about-card reveal tilt-card">
                   <span class="about-card-icon" aria-hidden="true">
-                    <i class="ri-lightbulb-line"></i>
+                    <i class="ri-cpu-line"></i>
                   </span>
-                  <h3>Visão prática</h3>
+                  <h3>Interesse por tecnologia</h3>
                   <p>
-                    Procura aplicar conhecimento em soluções claras, funcionais e bem
-                    apresentadas em contexto digital.
+                    Curiosidade activa por ferramentas, conceitos e soluções digitais ligadas à
+                    informática.
+                  </p>
+                </article>
+
+                <article class="about-card reveal tilt-card">
+                  <span class="about-card-icon" aria-hidden="true">
+                    <i class="ri-layout-grid-line"></i>
+                  </span>
+                  <h3>Projectos digitais</h3>
+                  <p>
+                    Aplicação de conhecimentos em trabalhos visuais e interactivos com cuidado na
+                    apresentação final.
                   </p>
                 </article>
               </div>
@@ -173,13 +225,13 @@
               <p class="eyebrow">Competências</p>
               <h2>Competências em desenvolvimento</h2>
               <p>
-                Áreas de conhecimento que fazem parte do percurso actual de Elton, apresentadas
-                em cards visuais, bem alinhados e com leitura imediata.
+                Áreas que estruturam o percurso actual de Elton, com leitura directa e progressão
+                visual clara.
               </p>
             </div>
 
             <div class="competencies-grid" aria-label="Lista de competências">
-              <article class="competency-card reveal" style="--level: 78%">
+              <article class="competency-card reveal tilt-card" style="--level: 78%">
                 <div class="competency-top">
                   <span class="competency-icon" aria-hidden="true">
                     <i class="ri-cup-line"></i>
@@ -200,7 +252,7 @@
                 </div>
               </article>
 
-              <article class="competency-card reveal" style="--level: 74%">
+              <article class="competency-card reveal tilt-card" style="--level: 74%">
                 <div class="competency-top">
                   <span class="competency-icon" aria-hidden="true">
                     <i class="ri-code-s-slash-line"></i>
@@ -221,7 +273,7 @@
                 </div>
               </article>
 
-              <article class="competency-card reveal" style="--level: 76%">
+              <article class="competency-card reveal tilt-card" style="--level: 76%">
                 <div class="competency-top">
                   <span class="competency-icon" aria-hidden="true">
                     <i class="ri-git-branch-line"></i>
@@ -242,7 +294,7 @@
                 </div>
               </article>
 
-              <article class="competency-card reveal" style="--level: 84%">
+              <article class="competency-card reveal tilt-card" style="--level: 84%">
                 <div class="competency-top">
                   <span class="competency-icon" aria-hidden="true">
                     <i class="ri-book-open-line"></i>
@@ -263,7 +315,7 @@
                 </div>
               </article>
 
-              <article class="competency-card reveal" style="--level: 71%">
+              <article class="competency-card reveal tilt-card" style="--level: 71%">
                 <div class="competency-top">
                   <span class="competency-icon" aria-hidden="true">
                     <i class="ri-gallery-line"></i>
@@ -284,7 +336,7 @@
                 </div>
               </article>
 
-              <article class="competency-card reveal" style="--level: 73%">
+              <article class="competency-card reveal tilt-card" style="--level: 73%">
                 <div class="competency-top">
                   <span class="competency-icon" aria-hidden="true">
                     <i class="ri-computer-line"></i>
@@ -314,61 +366,113 @@
               <p class="eyebrow">Projectos</p>
               <h2>Projectos seleccionados</h2>
               <p>
-                Trabalhos desenvolvidos com foco em design gráfico, modelação 3D, multimédia e
-                apresentação visual.
+                Trabalhos ligados a design gráfico, modelação 3D, multimédia e apresentação
+                visual, organizados como peças centrais do portfólio.
               </p>
             </div>
 
             <div class="projects-grid">
-              <article class="project-card project-card-poster reveal">
-                <div class="project-media">
+              <article class="project-card project-card--wide reveal tilt-card">
+                <div class="project-media project-media--contain">
                   <img src="assets/cartaz.png" alt="Cartaz gráfico desenvolvido por Elton" />
                 </div>
                 <div class="project-body">
-                  <span class="project-tag">Design Gráfico</span>
+                  <div class="project-meta">
+                    <span class="project-tag">Design Gráfico</span>
+                    <span class="project-index">01</span>
+                  </div>
                   <h3>Cartaz promocional</h3>
                   <p>
                     Peça gráfica desenvolvida para comunicar uma mensagem promocional com
                     hierarquia visual, equilíbrio de elementos e leitura clara da informação.
                   </p>
+                  <div class="project-actions">
+                    <button
+                      class="button button-ghost project-open"
+                      type="button"
+                      data-project-type="image"
+                      data-project-src="assets/cartaz.png"
+                      data-project-link="assets/cartaz.png"
+                      data-project-tag="Design Gráfico"
+                      data-project-title="Cartaz promocional"
+                      data-project-alt="Cartaz gráfico desenvolvido por Elton"
+                      data-project-description="Peça gráfica desenvolvida para comunicar uma mensagem promocional com hierarquia visual, equilíbrio de elementos e leitura clara da informação."
+                    >
+                      Detalhes
+                    </button>
+                  </div>
                 </div>
               </article>
 
-              <article class="project-card project-card-monitor reveal">
-                <div class="project-media">
+              <article class="project-card project-card--compact reveal tilt-card">
+                <div class="project-media project-media--contain">
                   <img
                     src="assets/monitor.png"
                     alt="Render do projecto Monitor de Computador desenvolvido por Elton"
                   />
                 </div>
                 <div class="project-body">
-                  <span class="project-tag">Blender / Render</span>
+                  <div class="project-meta">
+                    <span class="project-tag">Blender / Render</span>
+                    <span class="project-index">02</span>
+                  </div>
                   <h3>Monitor de Computador</h3>
                   <p>
                     Modelagem 3D de um monitor de computador desenvolvida em Blender, com
                     aplicação de materiais, iluminação e enquadramento para apresentação visual.
                   </p>
+                  <div class="project-actions">
+                    <button
+                      class="button button-ghost project-open"
+                      type="button"
+                      data-project-type="image"
+                      data-project-src="assets/monitor.png"
+                      data-project-link="assets/monitor.png"
+                      data-project-tag="Blender / Render"
+                      data-project-title="Monitor de Computador"
+                      data-project-alt="Render do projecto Monitor de Computador desenvolvido por Elton"
+                      data-project-description="Modelagem 3D de um monitor de computador desenvolvida em Blender, com aplicação de materiais, iluminação e enquadramento para apresentação visual."
+                    >
+                      Detalhes
+                    </button>
+                  </div>
                 </div>
               </article>
 
-              <article class="project-card reveal">
+              <article class="project-card project-card--compact reveal tilt-card">
                 <div class="project-media">
                   <video controls preload="metadata">
                     <source src="assets/Monitor.mp4" type="video/mp4" />
-                    O teu navegador não suporta reprodução de vídeo.
                   </video>
                 </div>
                 <div class="project-body">
-                  <span class="project-tag">Vídeo / Apresentação</span>
+                  <div class="project-meta">
+                    <span class="project-tag">Vídeo / Apresentação</span>
+                    <span class="project-index">03</span>
+                  </div>
                   <h3>Animação do monitor</h3>
                   <p>
                     Sequência em vídeo criada para apresentar o modelo 3D do monitor, destacando
                     movimento, enquadramentos e fluidez visual numa peça curta de apresentação.
                   </p>
+                  <div class="project-actions">
+                    <button
+                      class="button button-ghost project-open"
+                      type="button"
+                      data-project-type="video"
+                      data-project-src="assets/Monitor.mp4"
+                      data-project-link="assets/Monitor.mp4"
+                      data-project-tag="Vídeo / Apresentação"
+                      data-project-title="Animação do monitor"
+                      data-project-description="Sequência em vídeo criada para apresentar o modelo 3D do monitor, destacando movimento, enquadramentos e fluidez visual numa peça curta de apresentação."
+                    >
+                      Detalhes
+                    </button>
+                  </div>
                 </div>
               </article>
 
-              <article class="project-card reveal">
+              <article class="project-card project-card--wide reveal tilt-card">
                 <div class="project-media project-media-model">
                   <model-viewer
                     src="assets/monitor.glb"
@@ -383,12 +487,31 @@
                   ></model-viewer>
                 </div>
                 <div class="project-body">
-                  <span class="project-tag">GLB / Modelo 3D</span>
+                  <div class="project-meta">
+                    <span class="project-tag">GLB / Modelo 3D</span>
+                    <span class="project-index">04</span>
+                  </div>
                   <h3>Monitor 3D interactivo</h3>
                   <p>
                     Versão interactiva do modelo 3D publicada para ambiente web, permitindo
                     observar forma, materiais e detalhes do objecto sob diferentes ângulos.
                   </p>
+                  <div class="project-actions">
+                    <button
+                      class="button button-ghost project-open"
+                      type="button"
+                      data-project-type="model"
+                      data-project-src="assets/monitor.glb"
+                      data-project-poster="assets/monitor.png"
+                      data-project-link="assets/monitor.glb"
+                      data-project-tag="GLB / Modelo 3D"
+                      data-project-title="Monitor 3D interactivo"
+                      data-project-alt="Modelo 3D de monitor criado por Elton"
+                      data-project-description="Versão interactiva do modelo 3D publicada para ambiente web, permitindo observar forma, materiais e detalhes do objecto sob diferentes ângulos."
+                    >
+                      Detalhes
+                    </button>
+                  </div>
                 </div>
               </article>
             </div>
@@ -401,8 +524,8 @@
               <p class="eyebrow">Contacto</p>
               <h2>Vamos conversar sobre tecnologia e projectos</h2>
               <p>
-                Se pretendes entrar em contacto com Elton para colaboração, aprendizagem ou
-                oportunidades, usa o formulário ou segue directamente para o WhatsApp.
+                Para colaboração, aprendizagem ou oportunidades, usa o formulário ou segue
+                directamente para o WhatsApp.
               </p>
 
               <div class="contact-links">
@@ -470,6 +593,44 @@
           </a>
         </div>
       </footer>
+    </div>
+
+    <div class="project-modal" id="project-modal" hidden>
+      <div class="project-modal__backdrop" data-project-close></div>
+      <div
+        class="project-modal__dialog"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="project-modal-title"
+      >
+        <button
+          class="project-modal__close"
+          type="button"
+          aria-label="Fechar detalhes do projecto"
+          data-project-close
+        >
+          <i class="ri-close-line" aria-hidden="true"></i>
+        </button>
+
+        <div class="project-modal__content">
+          <div class="project-modal__media" id="project-modal-media"></div>
+
+          <div class="project-modal__body">
+            <span class="project-tag" id="project-modal-tag"></span>
+            <h3 id="project-modal-title"></h3>
+            <p id="project-modal-description"></p>
+            <a
+              class="button button-primary"
+              id="project-modal-link"
+              href="#"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Abrir ficheiro
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
 
     <script src="script.js"></script>
