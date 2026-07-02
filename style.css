@@ -1065,8 +1065,9 @@ textarea {
   background: linear-gradient(180deg, rgba(255, 250, 242, 0.98), rgba(238, 227, 209, 0.94));
 }
 
-.project-media video {
-  object-fit: cover;
+.project-media video,
+.project-modal__media video {
+  object-fit: contain;
   background: #e9dfce;
 }
 
